@@ -90,7 +90,9 @@ if intentos<2:
 
 # CONTINUE PASS ELSE
 
-for letra in "python":
-	if letra=="h":
-		continue
-	print("letra " + letra)
+# for letra in "python":
+# 	if letra=="h":
+# 		continue
+# 	print("letra " + letra)
+
+nom = "Pildoras Informaticas"
