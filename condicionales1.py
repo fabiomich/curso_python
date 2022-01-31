@@ -52,3 +52,14 @@ if dist > 40 and hermanos > 2 and salario <= 5000:
 	print("tienes la beca")
 else:
 	print("Te jodiste sin beca.")
+
+# Operador IN
+
+print("Asignaturas año 2022")
+print("Asignaturas optativas:")
+print("Informatica - pruebas - usabilidad")
+asignatura=input("Escribe la asignatura escogida: ")
+if asignatura in ("Informatica", "pruebas", "usabilidad"):
+	print("Asignatura elegida: " + asignatura)
+else:
+	print("La asignatura escogida no existe.")
