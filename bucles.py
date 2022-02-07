@@ -96,3 +96,24 @@ if intentos<2:
 # 	print("letra " + letra)
 
 nom = "Pildoras Informaticas"
+cont = 0
+for x in nom:
+	if x == " ":
+		continue
+	cont+=1
+print(cont)
+
+# while True:
+# 	pass
+
+# class ClassName(object):
+# 	pass # Para implementar mas tarde
+
+email=input("introduce email: ")
+for x in email:
+	if x=="@":
+		arroba=True
+		break;
+else:
+	arroba=False
+print(arroba)
